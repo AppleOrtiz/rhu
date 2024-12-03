@@ -1,0 +1,125 @@
+<?php
+$year = $_GET['year'];
+
+// Replace with your database connection and query logic
+// Example data for demonstration
+$data = {
+    "barangays": [
+        "Bagong Kalsada",
+        "Banos",
+        "Barangay I (Pob.)",
+        "Barangay II (Pob.)",
+        "Bucana Malaki",
+        "Bucana Sasahan",
+        "Calubcob",
+        "Capt. C. Nazareno",
+        "Gomez-Zamora",
+        "Halang",
+        "Humbac",
+        "Ibaba",
+        "Labac",
+        "Langga",
+        "Latoria",
+        "Mabulo",
+        "Malamig",
+        "Malainen Bago",
+        "Malainen Luma",
+        "Mangang",
+        "Munting Mapino",
+        "Naic Proper",
+        "Palangue",
+        "Panginayan",
+        "Pulo I",
+        "Pulo II",
+        "Sabang",
+        "San Roque",
+        "Santol",
+        "Sapa",
+        "Timalan Balsahan",
+        "Timalan Concepcion"
+    ],
+    "counts": [
+        10,
+        20,
+        15,
+        30,
+        25,
+        18,
+        12,
+        22,
+        28,
+        35,
+        20,
+        15,
+        18,
+        22,
+        25,
+        30,
+        20,
+        15,
+        18,
+        22,
+        25,
+        30,
+        20,
+        15,
+        18,
+        22,
+        25,
+        30,
+        20,
+        15,
+        18,
+        22
+    ],
+    "weekDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+    ],
+    "patientCounts": [
+        50,
+        60,
+        55,
+        65,
+        70,
+        60,
+        55
+    ],
+    "months": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ],
+    "monthlyCounts": [
+        100,
+        120,
+        110,
+        130,
+        140,
+        120,
+        110,
+        130,
+        140,
+        120,
+        110,
+        130
+    ]
+}
+// Return JSON response
+header('Content-Type: application/json');
+echo json_encode($data);
+?>

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 40px;
+  padding-top: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Card Styling */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  background-color: #000080;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-header i {
+  margin-right: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+
+.mt-5{
+  align-items: center;
+}
+table tr td{
+    vertical-align: middle;
+    
+  }
+  
+  td button{
+    margin: 5px;
+  }
+  
+  td button i{
+    font-size: 20px;
+  }
+  
+  
+  .modal-header{
+    background: #fff;
+    color: #fff;
+  }
+  .modal-title {
+    font-weight: bold;
+    color: #000; /* Title color */
+  }
+  
+  .modal-body form {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    padding: 0;
+  }
+  
+  .upload i{
+    color: #fff;
+    font-size: 35px;
+  }
+  
+  .modal-body form .inputField{
+    flex-basis: 50%;
+    border-left: 5px groove blue;
+    padding-left: 20px;
+  }
+  
+  form .inputField > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  form .inputField > div label{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  #userForm form .inputField > div label::after{
+    content: "*";
+    color: red;
+  }
+  
+  form .inputField > div input{
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid blue;
+  }
+  
+  .modal-footer .submit{
+    font-size: 18px;
+  }
+  
+  
+  #readData form .inputField > div input{
+    color: #000;
+    font-size: 18px;
+  }

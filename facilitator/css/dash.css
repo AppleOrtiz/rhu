@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa; /* Light background */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+.container {
+    width: 100%;
+    height: auto;
+    margin: 10px ;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white; /* Card background */
+}
+.container-fluid{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: auto;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+label {
+    font-weight: bold;
+    font-size: 15px;
+}
+select {
+    margin-top: 10px;
+    width: auto;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-bottom: 5px; /* Space between fields */
+}
+canvas {
+    border-radius: 5px; /* Rounded corners for charts */
+    background-color: #fff; /* Light gray background for charts */
+    align-items: center;
+    width: 100%;
+}
+.row {
+    margin-bottom: 15px; /* Space between rows */
+}
+.text-center {
+    margin-bottom: 10px; /* Space for title */
+}

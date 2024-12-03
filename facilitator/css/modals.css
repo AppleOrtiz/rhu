@@ -1,0 +1,201 @@
+
+  .btn-info {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 50px;
+    transition: background-color 0.3s ease;
+    color: #fff;
+  }
+  
+  .btn-info:hover {
+    background-color: #6c757d; /* Darker shade on hover */
+  }
+  .btn-warning:hover {
+    background-color: #eaeaea; /* Darker shade on hover */
+  }
+  
+  .btn-dark{
+      background-color: #007bff; /* Bootstrap primary color */
+      border-radius: 5px;
+      padding: 5px 30px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+      color: #fff;
+      margin-top: 7px;
+      margin-right: 90%;
+    }
+    
+    .btn-dark:hover {
+      background-color: #000; /* Darker shade on hover */
+    }
+  
+
+  /* Modal custom styles */
+  .modal-content {
+    border-radius: 10px; /* Rounded corners for modal */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .modal-header {
+    border-bottom: 2px solid #eaeaea; /* Blue border at the bottom */
+  }
+  
+  .modal-title {
+    font-weight: bold;
+    color: #000; /* Title color */
+  }
+  
+  .modal-body {
+    font-size: 15px;
+    color: #555; /* Body text color */
+  }
+  
+  .modal-footer {
+    border-top: 2px solid #eaeaea; /* Blue border at the top */
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; /* Default secondary color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+  }
+
+  .hover-button {
+   
+    outline: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .hover-button::after {
+    content: 'View'; /* The text to display on hover */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Color of the text */
+    opacity: 0; /* Make text invisible initially */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: -7px;
+    text-align: center;
+  }
+  
+  .hover-button:hover {
+    color: transparent; /* Keep the main text invisible */
+  }
+  
+  .hover-button:hover::after {
+    opacity: 1; /* Show the text when hovered */
+  }
+  
+  .hover-buttons { /* pdf */
+   
+    outline: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .hover-buttons::after {
+    content: 'PDF'; /* The text to display on hover */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Color of the text */
+    opacity: 0; /* Make text invisible initially */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: -7px;
+    text-align: center;
+  }
+  
+  .hover-buttons:hover {
+    color: transparent; /* Keep the main text invisible */
+  }
+  
+  .hover-buttons:hover::after {
+    opacity: 1; /* Show the text when hovered */
+  }
+  
+  .hovers-button { /* update*/
+   
+    outline: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .hovers-button::after {
+    content: 'Update'; /* The text to display on hover */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #000; /* Color of the text */
+    opacity: 0; /* Make text invisible initially */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: -7px;
+    text-align: center;
+  }
+  
+  .hovers-button:hover {
+    color: transparent; /* Keep the main text invisible */
+  }
+  
+  .hovers-button:hover::after {
+    opacity: 1; /* Show the text when hovered */
+  }
+  
+  .hovers-buttons { /* delete*/
+   
+    outline: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .hovers-buttons::after {
+    content: 'Delete'; /* The text to display on hover */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Color of the text */
+    opacity: 0; /* Make text invisible initially */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: -7px;
+    text-align: center;
+  }
+  
+  .hovers-buttons:hover {
+    color: transparent; /* Keep the main text invisible */
+  }
+  
+  .hovers-buttons:hover::after {
+    opacity: 1; /* Show the text when hovered */
+  }
+
+  .Hover-button { /* restore */
+    outline: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .Hover-button::after {
+    content: 'Restore'; /* The text to display on hover */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Color of the text */
+    opacity: 0; /* Make text invisible initially */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: -7px;
+    text-align: center;
+  }
+  
+  .Hover-button:hover {
+    color: transparent; /* Keep the main text invisible */
+  }
+  
+  .Hover-button:hover::after {
+    opacity: 1; /* Show the text when hovered */
+  }
+  

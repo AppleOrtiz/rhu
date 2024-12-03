@@ -1,0 +1,78 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 40px;
+  padding-top: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Card Styling */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #000080;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-header i {
+  margin-right: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+.row{
+    width: 100%;
+   
+}
+/* Form Layout */
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 13px;
+  color: #555;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 7.5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="number"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+

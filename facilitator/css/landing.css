@@ -1,0 +1,289 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(a.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    margin-top: 200px;
+    color: #ccc;
+}
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    color: beige;
+}
+h6{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Century Gothic';
+    font-weight: 500;
+}
+p{
+    margin: auto;
+    font-size: 15px;
+    margin-left: -10px;
+    font-family: 'Poppins';
+}
+.container-fluid{
+    margin-top: -20%;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    background: #eaeaea;
+    border-radius: 2px;
+    margin-bottom: 20%;
+    
+}
+
+.mt-3{
+    margin-top: -60px;
+}
+h2{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 5px;
+  font-family: 'Poppins';
+}
+.input-field{
+    background: #fff;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 0.2px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+ }
+ input{
+    width: 90%;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    padding: 3px 15px;
+    font-size: 12px;
+}
+.input-field i{
+    margin-left: 5px;
+    color: #0e2238;
+}
+.btn-field{
+    margin-top: 25px;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn-field button{
+    width: 95%;
+    margin-bottom: 20px;
+    background: #3c00a0;
+    color: #fff;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-family: 'Poppins';
+    
+  }
+  .btn-field button:hover {
+    background-color: #23527c;
+  }
+  .col-4{
+    position: relative;
+  }
+  .eye-icon {
+    position: inherit;
+    width: 35px;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    
+
+}
+
+/* ANNOUNCEMENTS */
+ 
+h4 {
+  color: #ccc;
+  font-weight: bold;
+}
+
+
+h3 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: -1.5rem;
+  color: #ccc;
+}
+
+h5 {
+  font-size: 1.9rem;
+  font-weight: 500;
+  font-family: 'Poppins';
+  margin-top: -50px;
+  margin-bottom: 1.5rem;
+  color: #eaeaea;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Container */
+.container-sm {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(000, 000, 000, 0.4); /* White background with 0 opacity */
+}
+
+/* Announcements Section */
+.announcements-container {
+  margin-top: 10px;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-card {
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+ 
+}
+
+.announcement-card .row {
+  display: flex;
+  align-items: center;
+  
+}
+
+.announcement-card img {
+  border-radius: 8px;
+  max-width: 60%;
+  height: auto;
+  margin-left: -40%;
+}
+
+.announcement-card h4 {
+  margin-left: -35%;
+  font-size: 2.2rem;
+  margin-top: -25px;
+  margin-bottom: 5px;
+}
+
+.announcement-card p {
+  margin-left: -35%;
+  width: 130%;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 5px;
+  text-align: justify;
+}
+
+/* Services Section */
+.services-section {
+  padding: -5px 0;
+}
+
+.services-section h3 {
+  font-size: 2.9rem;
+  font-weight: 600;
+  margin-bottom: -12%;
+  text-transform: uppercase;
+}
+
+.services-card {
+  background-color: #eaeaea;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.services-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.services-card h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  color: #000;
+}
+
+.services-card p {
+  font-size: 15px;
+  color: #000;
+  padding: 25px;
+  margin-bottom: -25px;
+  text-align: justify;
+}
+
+.services-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .services-card img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .services-section .row {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .announcement-card .row {
+      flex-direction: column;
+  }
+}
+
+/* Footer Section */
+.footer {
+  color: #fff;
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mb-6 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+/* Button Style for Password Toggle */
+#togglePassword {
+  cursor: pointer;
+  color: #2c3e50;
+  font-size: 18px;
+}
